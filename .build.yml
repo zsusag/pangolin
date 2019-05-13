@@ -1,0 +1,9 @@
+image: archlinux
+packages:
+  - go
+sources:
+  - https://github.com/zsusag/pangolin.git
+tasks:
+  - build: |
+      cd pangolin
+      go build -v ./...
