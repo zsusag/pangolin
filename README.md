@@ -109,6 +109,7 @@ Enter the new verification phrase on your new device: phone frontier shale
 ```
 
 Now, on your new device, enter the new verification phrase to complete the verification process.
+```
 $ pangolin --new-device
 ...
 
